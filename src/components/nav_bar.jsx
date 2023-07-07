@@ -5,9 +5,9 @@ class NavBar extends Component {
     render() { 
         return (
             <div className='bg-zinc-200'>
-                <h3 class="mb-2 mt-0 text-3xl font-medium leading-tight text-primary">>Productos</h3>
+                <h3 className="mb-2 mt-0 text-3xl font-medium leading-tight text-primary">Productos</h3>
                 <ul
-                    class="mb-5 flex list-none flex-col flex-wrap pl-0 md:flex-row"
+                    className="mb-5 flex list-none flex-col flex-wrap pl-0 md:flex-row"
                     id="pills-tab"
                     role="tablist"
                     data-te-nav-ref
